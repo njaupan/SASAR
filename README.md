@@ -1,4 +1,4 @@
-## SASAR 
+# SASAR 
 
 SASAR is a meta-assembly tool to reconcile different assemblies without a reference guide. 
 
@@ -9,14 +9,13 @@ Steps include:
 - Rescue some small contigs
 
 ## Getting Started
-# Install required dependencies
+## Install required dependencies
 
 - [Minimap2](https://github.com/lh3/minimap2)
 - Python 3 (with the following auto-installed packages)
     - biopython
     - pandas
-    - pybedtools
-    
+    - pybedtools 
 ```bash
 # install with conda
 conda create --name SASAR python=3.8
@@ -24,7 +23,8 @@ conda install -n SASAR -c anaconda -y biopython
 conda install -n SASAR -c bioconda -y minimap2 pybedtools pandas
 
 ```
--[SiLiX](http://lbbe.univ-lyon1.fr/-SiLiX-?lang=en)
+    
+- [SiLiX](http://lbbe.univ-lyon1.fr/-SiLiX-?lang=en)
 
    * Download version **1.2.11**
    * Make sure Boost libraries are also installed (for Ubuntu issue the following commands, requires **root permissions**)
