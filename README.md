@@ -24,7 +24,7 @@ conda install -n SASAR -c anaconda -y biopython
 conda install -n SASAR -c bioconda -y minimap2 pybedtools pandas
 
 ```
-- [SiLiX] (http://lbbe.univ-lyon1.fr/-SiLiX-?lang=en)
+-[SiLiX](http://lbbe.univ-lyon1.fr/-SiLiX-?lang=en)
 
    * Download version **1.2.11**
    * Make sure Boost libraries are also installed (for Ubuntu issue the following commands, requires **root permissions**)
