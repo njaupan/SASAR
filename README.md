@@ -2,12 +2,6 @@
 
 SASAR is a meta-assembly tool to reconcile different assemblies without a reference guide. 
 
-Steps include:
-- Identifying "pan-contigs"
-- Extend two ends of "pan-contigs"
-- Break mis-assembly due to transposable elements (TE)
-- Rescue some small contigs
-
 ## Getting Started
 ## Install required dependencies
 
