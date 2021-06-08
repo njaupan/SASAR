@@ -1,5 +1,28 @@
 """
-Metrics from sam/bam file
+   Metrics from sam/bam file
+   Copyright 2020 Panpan Zhang (njaupanpan@gmail.com)
+
+   This script is to get the statistics from paf file, such as Insertion, Deletion, Subsititution and Gap-compressed Identity by the same definition from minimap2 developer Heng Li's blog: http://lh3.github.io/2018/11/25/on-the-definition-of-sequence-identity
+		       
+	Tag  Type                       Description                      
+
+	tp   A    Type of aln: P/primary, S/secondary and I,i/inversion 
+	cm   i    Number of minimizers on the chain                     
+    s1   i    Chaining score
+    s2   i    Chaining score of the best secondary chain
+    NM   i    Total number of mismatches and gaps in the alignment
+    MD   Z    To generate the ref sequence in the alignment
+    AS   i    DP alignment score
+    ms   i    DP score of the max scoring segment in the alignment
+    nn   i    Number of ambiguous bases in the alignment
+    ts   A    Transcript strand (splice mode only)
+    cg   Z    CIGAR string (only in PAF) M:MATCH; I:iNSERTION; D:DELETION
+    cs   Z    Difference string
+
+    Example commands:
+    stats_from_bam.py -i input.bam (option -m / -mq/-p )
+
+
 """
 
 import argparse
