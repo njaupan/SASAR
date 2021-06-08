@@ -1,7 +1,19 @@
 # SASAR
-A meta-assembly tool using pseudomolecules-like “super-assembly” from assembly reconciliation.
-Different assemblier has different advatanges, it was difficult to evaluate what was the best assembly for each dataset.
-and we could not polish all our 22 assemblies of one species with Illumina data or with Bionano/Hi-c to reduce base error, 
-as it would be time consuming and would use large computational power.
-The “best” assembly with all desired features such as including complete centromeric regions 
-or most complete single-copy orthologs usually is not obtained from a single assembler.
+Packages that required
+
+SiLiX
+
+Download version 1.2.11
+Make sure Boost libraries are also installed (for Ubuntu issue the following commands, requires root permissions)
+sudo apt-get install libboost-dev
+sudo apt-get install libboost-program-options-dev
+
+Install SiLiX, requires root
+
+wget ftp://pbil.univ-lyon1.fr/pub/logiciel/silix/silix-1.2.11.tar.gz
+tar zxvf silix-1.2.11.tar.gz
+cd silix-1.2.11
+./configure
+make
+make check
+sudo make install
