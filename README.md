@@ -37,14 +37,14 @@ conda install -n SASAR -c bioconda -y minimap2 pybedtools pandas
    sudo make install
 ```
 #Dataset 
-# A. thaliana Col-0 130Mb |ONT 130x 
+## A. thaliana Col-0 130Mb |ONT 130x 
 https://www.ebi.ac.uk/ena/browser/view/ERR4296493
 
-# O. sativa Nipponbare IRGSP1 |380Mb |ONT 30x
+## O. sativa Nipponbare IRGSP1 |380Mb |ONT 30x
 https://www.ebi.ac.uk/ena/browser/view/PRJEB34954
 
-# O. sativa Nipponbare  |380Mb |ONT 130x
-# S. pennellii  |380Mb |ONT 110x
+## O. sativa Nipponbare  |380Mb |ONT 130x
+## S. pennellii  |380Mb |ONT 110x
 https://plabipd.de/portal/solanum-pennellii
 
 ## Docs
