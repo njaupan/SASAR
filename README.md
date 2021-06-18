@@ -38,7 +38,7 @@ conda install -n SASAR -c bioconda -y minimap2 pybedtools pandas
 ## Dataset 
 ### Haploid
 ### A. thaliana Col-0 (130Mb |ONT 130x)
-https://www.ebi.ac.uk/ena/browser/view/ERR4296493
+https://www.ebi.ac.uk/ena/browser/view/PRJEB34954
 
 ### O. sativa Nipponbare IRGSP1 (380Mb |ONT 30x)
 https://www.ebi.ac.uk/ena/browser/view/PRJEB34954
