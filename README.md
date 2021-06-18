@@ -37,6 +37,12 @@ conda install -n SASAR -c bioconda -y minimap2 pybedtools pandas
    sudo make install
 ```
 
+|Dataset                 |GSize |Cov    
+
+|[A. thaliana Col-0]       |130Mb |ONT 130x 
+|[O. sativa_Nipponbare IRGSP1] |380Mb |ONT 30x 
+|[O. sativa_Nipponbare ] |380Mb |ONT 130x 
+|[S. pennellii ] |380Mb |ONT 110x
 
 ## Docs
 ## Citation
