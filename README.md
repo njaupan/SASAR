@@ -5,19 +5,7 @@ SASAR is a meta-assembly tool to reconcile different assemblies without a refere
 ## Getting Started
 ## Install required dependencies
 
-- [Minimap2](https://github.com/lh3/minimap2)
-- Python 3 (with the following auto-installed packages)
-    - biopython
-    - pandas
-    - pybedtools 
-```bash
-# install with conda
-conda create --name SASAR python=3.8
-conda install -n SASAR -c anaconda -y biopython
-conda install -n SASAR -c bioconda -y minimap2 pybedtools pandas
-
-```
-    
+- [Minimap2](https://github.com/lh3/minimap2)    
 - [SiLiX](http://lbbe.univ-lyon1.fr/-SiLiX-?lang=en)
 
    * Download version **1.2.11**
@@ -36,15 +24,26 @@ conda install -n SASAR -c bioconda -y minimap2 pybedtools pandas
    make check
    sudo make install
 ```
-#Dataset 
-## A. thaliana Col-0 130Mb |ONT 130x 
+- Python 3 (with the following auto-installed packages)
+    - biopython
+    - pandas
+    - pybedtools 
+```bash
+# install with conda
+conda create --name SASAR python=3.8
+conda install -n SASAR -c anaconda -y biopython
+conda install -n SASAR -c bioconda -y minimap2 pybedtools pandas
+
+```
+##Dataset 
+### A. thaliana Col-0 130Mb |ONT 130x 
 https://www.ebi.ac.uk/ena/browser/view/ERR4296493
 
-## O. sativa Nipponbare IRGSP1 |380Mb |ONT 30x
+### O. sativa Nipponbare IRGSP1 |380Mb |ONT 30x
 https://www.ebi.ac.uk/ena/browser/view/PRJEB34954
 
-## O. sativa Nipponbare  |380Mb |ONT 130x
-## S. pennellii  |380Mb |ONT 110x
+### O. sativa Nipponbare  |380Mb |ONT 130x
+### S. pennellii  |380Mb |ONT 110x
 https://plabipd.de/portal/solanum-pennellii
 
 ## Docs
