@@ -49,7 +49,7 @@ https://www.ebi.ac.uk/ena/browser/view/PRJEB34954
 https://plabipd.de/portal/solanum-pennellii
 
 ### Diploid
-### F. ananassa (0.8Gb	|PB HIFI 36x)
+### F. ananassa (0.8Gb	|PB HiFi 36x)
 https://www.ncbi.nlm.nih.gov/sra/?term=SRR11606867
 ## Docs
 ## Citation
