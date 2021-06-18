@@ -36,6 +36,7 @@ conda install -n SASAR -c bioconda -y minimap2 pybedtools pandas
 
 ```
 ## Dataset 
+### Haploid
 ### A. thaliana Col-0 130Mb |ONT 130x 
 https://www.ebi.ac.uk/ena/browser/view/ERR4296493
 
@@ -46,5 +47,8 @@ https://www.ebi.ac.uk/ena/browser/view/PRJEB34954
 ### S. pennellii  |380Mb |ONT 110x
 https://plabipd.de/portal/solanum-pennellii
 
+### Diploid
+### F. ananassa 0.8Gb	|PB HIFI 36x
+https://www.ncbi.nlm.nih.gov/sra/?term=SRR11606867
 ## Docs
 ## Citation
