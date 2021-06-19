@@ -48,7 +48,7 @@ https://www.ebi.ac.uk/ena/browser/view/PRJEB34954
 
 ### O. sativa Nipponbare  (380Mb |ONT 183x)
 
-### S. pennellii  (0.9Gb |ONT 110x)
+### S. pennellii  (0.9Gb |ONT 160x)
 https://plabipd.de/portal/solanum-pennellii
 
 ### Diploid
