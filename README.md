@@ -43,10 +43,10 @@ https://www.ncbi.nlm.nih.gov/sra/SRX3676783
 ### A. thaliana Col-0 (130Mb |ONT 130x)
 https://www.ebi.ac.uk/ena/browser/view/PRJEB34954
 
-### O. sativa Nipponbare IRGSP1 (380Mb |ONT 30x)
+### O. sativa Nipponbare IRGSP1 (380Mb |ONT 34x)
 https://www.ebi.ac.uk/ena/browser/view/PRJEB34954
 
-### O. sativa Nipponbare  (380Mb |ONT 130x)
+### O. sativa Nipponbare  (380Mb |ONT 183x)
 
 ### S. pennellii  (0.9Gb |ONT 110x)
 https://plabipd.de/portal/solanum-pennellii
