@@ -37,7 +37,7 @@ conda install -n SASAR -c bioconda -y minimap2 pybedtools pandas
 ```
 ## Dataset 
 ### Haploid
-### D. melanogaster ISO1 (144 Mb |ONT 32x)
+### D. melanogaster ISO1 (144 Mb |ONT 66x)
 https://www.ncbi.nlm.nih.gov/sra/SRX3676783
 
 ### A. thaliana Col-0 (130Mb |ONT 130x)
