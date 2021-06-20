@@ -4,11 +4,11 @@ SASAR is a meta-assembly tool to reconcile different assemblies without a refere
 
 ## Table of Contents
 
-- [Getting Started](#started)
 - [Introduction](#intro)
 - [Users' Guide](#uguide)
   - [Installation](#install)
   - [Usage](#Usage)
+  - [Example](#example)
 - [Limitations](#limit)
 
 ## <a name="intro"></a>Introduction
@@ -24,7 +24,7 @@ SASAR is a meta-assembly tool to reconcile different assemblies without a refere
     - pybedtools 
 
 ## <a name="Usage"></a>Usage
-
+`
 usage: python SASAR.py in_dir
 
 Long read assembly reconciliation
@@ -45,7 +45,7 @@ Output options:
 Other:
   -h, --help         show this help message and exit
   -v, --version      show program's version number and exit
-  
+  `
 ## Dataset 
 ### Haploid
 - [D. melanogaster ISO1](https://www.ncbi.nlm.nih.gov/sra/SRX3676783) (144Mb |ONT 66x)
