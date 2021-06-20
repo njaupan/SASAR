@@ -16,11 +16,20 @@ SASAR is a meta-assembly tool to reconcile different assemblies without a refere
 ## <a name="install"></a>Installation
 
 - [Minimap2 version 2.20](https://github.com/lh3/minimap2) 
+   ```
+   git clone https://github.com/lh3/minimap2
+   cd minimap2 && make
+   ```
 - [Minigraph version 0.15](https://github.com/lh3/minigraph)
+   ```
+   git clone https://github.com/lh3/minigraph
+   cd minigraph && make
+   ```
 - Python 3 
-    - biopython
-    - pandas
-    - pybedtools
+    * biopython
+    * pandas
+    * pybedtools
+    
 - [Silix version 1.2.11](http://lbbe.univ-lyon1.fr/-SiLiX-?lang=en)
    * A tool for Ultra-fast Sequence Clustering from Similarity Networks
    * Make sure Boost libraries are also installed (for Ubuntu issue the following commands, requires **root permissions**)
