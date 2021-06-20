@@ -11,7 +11,6 @@ SASAR is a meta-assembly tool to reconcile different assemblies without a refere
 - [Limitations](#limit)
 
 ## <a name="intro"></a>Introduction
-SASAR is a meta-assembly tool to reconcile different assemblies without a reference guide.
 
 ### <a name="install"></a>Installation
 
