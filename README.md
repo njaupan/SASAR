@@ -41,8 +41,8 @@ SASAR is a meta-assembly tool to reconcile different assemblies without a refere
    conda install -c bioconda pybedtools
    conda install -c anaconda pandas
    ```
-- [Silix version 1.2.11](http://lbbe.univ-lyon1.fr/-SiLiX-?lang=en)
-   * A tool for Ultra-fast Sequence Clustering from Similarity Networks
+- [Silix version 1.2.11](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-12-116)
+   * A tool for Ultra-fast Sequence Clustering from Similarity Networks 
    * Make sure Boost libraries are also installed (for Ubuntu issue the following commands, requires **root permissions**)
    ```bash
    sudo apt-get install libboost-dev
