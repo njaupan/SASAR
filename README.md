@@ -31,11 +31,15 @@ SASAR is a meta-assembly tool to reconcile different assemblies without a refere
    git clone https://github.com/lh3/minigraph
    cd minigraph && make
    ```
-- Python 3 
+- [Python 3 ](https://salishsea-meopar-docs.readthedocs.io/en/latest/work_env/python3_conda_environment.html)
     * biopython
     * pandas
     * pybedtools
-    
+   ```
+   conda install -c conda-forge biopython
+   conda install -c bioconda pybedtools
+   conda install -c anaconda pandas
+   ```
 - [Silix version 1.2.11](http://lbbe.univ-lyon1.fr/-SiLiX-?lang=en)
    * A tool for Ultra-fast Sequence Clustering from Similarity Networks
    * Make sure Boost libraries are also installed (for Ubuntu issue the following commands, requires **root permissions**)
