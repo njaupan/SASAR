@@ -38,22 +38,14 @@ conda install -n SASAR -c bioconda -y minimap2 pybedtools pandas
 ```
 ## Dataset 
 ### Haploid
-- [D. melanogaster ISO1](https://www.ncbi.nlm.nih.gov/sra/SRX3676783) (144 Mb |ONT 66x)
-
-
-### A. thaliana Col-0 (130Mb |ONT 130x)
-https://www.ebi.ac.uk/ena/browser/view/PRJEB34954
-
-### O. sativa Nipponbare IRGSP1 (380Mb |ONT 34x)
-https://www.ebi.ac.uk/ena/browser/view/PRJEB34954
-
-### O. sativa Nipponbare  (380Mb |ONT 183x)
-
-### S. pennellii  (0.9Gb |ONT 160x)
-https://plabipd.de/portal/solanum-pennellii
+- [D. melanogaster ISO1](https://www.ncbi.nlm.nih.gov/sra/SRX3676783) (144Mb |ONT 66x)
+- [A. thaliana Col-0](https://www.ebi.ac.uk/ena/browser/view/PRJEB34954) (130Mb |ONT 130x)
+- [O. sativa Nipponbare IRGSP1](https://www.ebi.ac.uk/ena/browser/view/PRJEB34954) (380Mb |ONT 34x)
+- [O. sativa Nipponbare]
+- [S. pennellii](https://plabipd.de/portal/solanum-pennellii) (0.9Gb |ONT 160x)
 
 ### Diploid
-### F. ananassa (0.8Gb	|PB HiFi 36x)
-https://www.ncbi.nlm.nih.gov/sra/?term=SRR11606867
+- [F. ananassa](https://www.ncbi.nlm.nih.gov/sra/?term=SRR11606867) (0.8Gb	|PB HiFi 36x)
+
 ## Docs
 ## Citation
