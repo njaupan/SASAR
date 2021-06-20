@@ -15,30 +15,30 @@ SASAR is a meta-assembly tool to reconcile different assemblies without a refere
 
 ## <a name="install"></a>Installation
 
-- [Minimap2-2.20 (r1061)](https://github.com/lh3/minimap2)
-- [Minigraph-0.15 (r426)](https://github.com/lh3/minigraph)
-- [silix-1.2.11](http://lbbe.univ-lyon1.fr/-SiLiX-?lang=en)
-- 
+- [Minimap2 version 2.20](https://github.com/lh3/minimap2) 
+- [Minigraph version 0.15](https://github.com/lh3/minigraph)
+- Python 3 
+    - biopython
+    - pandas
+    - pybedtools
+- [Silix version 1.2.11](http://lbbe.univ-lyon1.fr/-SiLiX-?lang=en)
+   * A tool for Ultra-fast Sequence Clustering from Similarity Networks
    * Download version **1.2.11**
    * Make sure Boost libraries are also installed (for Ubuntu issue the following commands, requires **root permissions**)
    ```bash
    sudo apt-get install libboost-dev
-sudo apt-get install libboost-program-options-dev
+   sudo apt-get install libboost-program-options-dev
    ```
    * Install SiLiX, **requires root**
-```
-wget ftp://pbil.univ-lyon1.fr/pub/logiciel/silix/silix-1.2.11.tar.gz
-tar zxvf silix-1.2.11.tar.gz
-cd silix-1.2.11
-./configure
-make
-make check
-sudo make install
-```
-- Python 3 
-    - biopython
-    - pandas
-    - pybedtools 
+   ```
+    wget ftp://pbil.univ-lyon1.fr/pub/logiciel/silix/silix-1.2.11.tar.gz
+    tar zxvf silix-1.2.11.tar.gz
+    cd silix-1.2.11
+    ./configure
+    make
+    make check
+    sudo make install
+    ```
 
 ## <a name="Usage"></a>Usage
 ```
