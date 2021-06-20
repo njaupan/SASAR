@@ -20,6 +20,12 @@ SASAR is a meta-assembly tool to reconcile different assemblies without a refere
    git clone https://github.com/lh3/minimap2
    cd minimap2 && make
    ```
+- [gfatools version 0.5](https://github.com/lh3/gfatools) 
+   ```
+   git clone https://github.com/lh3/gfatools
+   cd gfatools && make
+   ```
+
 - [Minigraph version 0.15](https://github.com/lh3/minigraph)
    ```
    git clone https://github.com/lh3/minigraph
