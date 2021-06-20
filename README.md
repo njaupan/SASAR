@@ -5,7 +5,8 @@ SASAR is a meta-assembly tool to reconcile different assemblies without a refere
 ## Getting Started
 ## Install required dependencies
 
-- [Minimap2](https://github.com/lh3/minimap2)    
+- [Minimap2](https://github.com/lh3/minimap2)
+- [Minigraph](https://github.com/lh3/minigraph)
 - [SiLiX](http://lbbe.univ-lyon1.fr/-SiLiX-?lang=en)
 
    * Download version **1.2.11**
@@ -37,8 +38,8 @@ conda install -n SASAR -c bioconda -y minimap2 pybedtools pandas
 ```
 ## Dataset 
 ### Haploid
-### D. melanogaster ISO1 (144 Mb |ONT 66x)
-https://www.ncbi.nlm.nih.gov/sra/SRX3676783
+### D. melanogaster ISO1 (144 Mb |ONT 66x) (https://www.ncbi.nlm.nih.gov/sra/SRX3676783)
+
 
 ### A. thaliana Col-0 (130Mb |ONT 130x)
 https://www.ebi.ac.uk/ena/browser/view/PRJEB34954
