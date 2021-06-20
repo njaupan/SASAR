@@ -12,7 +12,7 @@ SASAR is a meta-assembly tool to reconcile different assemblies without a refere
 
 ## <a name="intro"></a>Introduction
 
-### <a name="install"></a>Installation
+## <a name="install"></a>Installation
 
 - [Minimap2](https://github.com/lh3/minimap2)
 - [Minigraph](https://github.com/lh3/minigraph)
