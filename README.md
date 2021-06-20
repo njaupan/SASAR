@@ -41,7 +41,7 @@ conda install -n SASAR -c bioconda -y minimap2 pybedtools pandas
 - [D. melanogaster ISO1](https://www.ncbi.nlm.nih.gov/sra/SRX3676783) (144Mb |ONT 66x)
 - [A. thaliana Col-0](https://www.ebi.ac.uk/ena/browser/view/PRJEB34954) (130Mb |ONT 130x)
 - [O. sativa Nipponbare IRGSP1](https://www.ebi.ac.uk/ena/browser/view/PRJEB34954) (380Mb |ONT 34x)
-- [O. sativa Nipponbare]
+- O. sativa Nipponbare
 - [S. pennellii](https://plabipd.de/portal/solanum-pennellii) (0.9Gb |ONT 160x)
 
 ### Diploid
