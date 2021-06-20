@@ -8,6 +8,7 @@ SASAR is a meta-assembly tool to reconcile different assemblies without a refere
 - [Introduction](#intro)
 - [Users' Guide](#uguide)
   - [Installation](#install)
+  - [Usage](#Usage)
 - [Limitations](#limit)
 
 ## <a name="intro"></a>Introduction
@@ -22,6 +23,29 @@ SASAR is a meta-assembly tool to reconcile different assemblies without a refere
     - pandas
     - pybedtools 
 
+## <a name="Usage"></a>Usage
+
+usage: python SASAR.py in_dir
+
+Long read assembly reconciliation
+
+Positional arguments:
+  in_dir             input directory containing all assemblies
+
+Settings:
+  -t INT             number of CPU threads for whole genome alignment
+  -i INT             minimum identity confidence score [95]
+  -c INT             minimum coverage confidence score [95]
+  -m INT             minium overlap length [50000]
+  --repeat_size INT  repeat size [50000]
+
+Output options:
+  -o PATH            output directory for SASAR-assembly [./SASAR_output]
+
+Other:
+  -h, --help         show this help message and exit
+  -v, --version      show program's version number and exit
+  
 ## Dataset 
 ### Haploid
 - [D. melanogaster ISO1](https://www.ncbi.nlm.nih.gov/sra/SRX3676783) (144Mb |ONT 66x)
