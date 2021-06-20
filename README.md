@@ -23,7 +23,6 @@ SASAR is a meta-assembly tool to reconcile different assemblies without a refere
     - pybedtools
 - [Silix version 1.2.11](http://lbbe.univ-lyon1.fr/-SiLiX-?lang=en)
    * A tool for Ultra-fast Sequence Clustering from Similarity Networks
-   * Download version **1.2.11**
    * Make sure Boost libraries are also installed (for Ubuntu issue the following commands, requires **root permissions**)
    ```bash
    sudo apt-get install libboost-dev
