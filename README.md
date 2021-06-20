@@ -15,9 +15,9 @@ SASAR is a meta-assembly tool to reconcile different assemblies without a refere
 
 ## <a name="install"></a>Installation
 
-- [Minimap2](https://github.com/lh3/minimap2)
-- [Minigraph](https://github.com/lh3/minigraph)
-- [SiLiX](http://lbbe.univ-lyon1.fr/-SiLiX-?lang=en)
+- [Minimap2-2.20 (r1061)](https://github.com/lh3/minimap2)
+- [Minigraph-0.15 (r426)](https://github.com/lh3/minigraph)
+- [silix-1.2.11](http://lbbe.univ-lyon1.fr/-SiLiX-?lang=en)
 - Python 3 
     - biopython
     - pandas
