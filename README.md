@@ -36,7 +36,7 @@ SASAR is a meta-assembly tool to reconcile different assemblies without a refere
     * pandas
     * pybedtools
    ```
-   * Install eihter by conda or pip
+   # Install eihter by conda or pip
    conda install -c conda-forge biopython
    conda install -c bioconda pybedtools
    conda install -c anaconda pandas
