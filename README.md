@@ -94,4 +94,8 @@ Other:
 - [F. ananassa](https://www.ncbi.nlm.nih.gov/sra/?term=SRR11606867) (0.8Gb	|PB HiFi 36x)
 
 ## Docs
-## Citation
+## Contact
+
+Copyright © 2020 Panpan Zhang (njaupanpan@gmail.com)
+
+Any question, concern, or bug report about the program should be posted as an Issue on GitHub. Before posting, please check previous issues (both Open and Closed) to see if your issue has been addressed already. Also, please follow these good GitHub practices.
