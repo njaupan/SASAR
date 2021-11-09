@@ -62,7 +62,7 @@ SASAR is a meta-assembly tool to reconcile different assemblies without a refere
 
 ## <a name="Usage"></a>Usage
 
-## Hi, I am writing phd thesis and I will have a new version by Decemver 2021, try new version please !
+## Hi, I am writing phd thesis and I will have a new version by Decemver 15th 2021, try new version please !
 ```
 usage: python SASAR.py in_dir
 
